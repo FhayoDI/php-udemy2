@@ -20,5 +20,7 @@ break;
     case 4:
     echo "você vai pagar " . $preço + ($preço * 0.1);
 break;
+    default:
+        echo "opção invalida!";
 }
 

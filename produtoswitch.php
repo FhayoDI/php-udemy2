@@ -1,6 +1,5 @@
 <?php
-$preço = readline("digite o preço do produto ");
-(int)$preço;
+$preço = (int)readline("digite o preço do produto ");
 echo " Digite:
 1 para: À vista em dinheiro com 10% de desconto.
 2 para: À vista no cartão com 5% de desconto.
